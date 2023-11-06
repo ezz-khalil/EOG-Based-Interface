@@ -5,7 +5,7 @@ Welcome to the EOG Simple Game Interface project, an innovative human-computer i
 Our project leverages EOG technology to create a unique way of interacting with a computer. By detecting and interpreting eye movements, we've developed a simple game interface that allows users to play a maze game using only their eyes.
 
 ## Key Features
-.EOG signal preprocessing with a Butterworth band-pass filter (0 to 30 Hz).
+- EOG signal preprocessing with a Butterworth band-pass filter (0 to 30 Hz).
 .Resampling of EOG data.
 . Baseline and artifact removal.
 . Eye movement detection, including Up, Down, Right, Left, and Blink.
