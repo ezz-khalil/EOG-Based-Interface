@@ -6,19 +6,19 @@ Our project leverages EOG technology to create a unique way of interacting with 
 
 ## Key Features
 - EOG signal preprocessing with a Butterworth band-pass filter (0 to 30 Hz).
-.Resampling of EOG data.
-. Baseline and artifact removal.
-. Eye movement detection, including Up, Down, Right, Left, and Blink.
-. Machine learning models (SVM and Random Forest) for eye movement prediction.
-. The maze game interface is controlled by predicted eye movements.
+- Resampling of EOG data.
+- Baseline and artifact removal.
+- Eye movement detection, including Up, Down, Right, Left, and Blink.
+- Machine learning models (SVM and Random Forest) for eye movement prediction.
+- The maze game interface is controlled by predicted eye movements.
 ## Project Workflow
 Our team followed a structured workflow to create this project:
 
 ### EOG Signal Preprocessing:
 
-. Applied a Butterworth band-pass filter (0 to 30 Hz) to the EOG signal.
-. Resampled the data for further processing.
-. Removed baseline and artifacts to ensure clean input data.
+- Applied a Butterworth band-pass filter (0 to 30 Hz) to the EOG signal.
+- Resampled the data for further processing.
+- Removed baseline and artifacts to ensure clean input data.
 ### Eye Movement Detection:
 
 Utilized Wavelet coefficients and Power Spectral Density (PSD) as features for detecting eye movements.
